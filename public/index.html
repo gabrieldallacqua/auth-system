@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auth System - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Ícones do Phosphor Icons para um visual moderno -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Seção de Autenticação (Login / Registro) -->
+        <div id="auth-section" class="card">
+            <h2>Autenticação</h2>
+            
+            <div id="active-session-banner" class="session-banner hidden">
+                <p>Sessão ativa como <span id="session-email" class="identity-user"></span></p>
+                <button id="btn-goto-profile" class="mb-10">Acessar Painel</button>
+                <div class="divider">ou entre com outra conta</div>
+            </div>
+
+            <div class="form-group">
+                <input type="email" id="email" placeholder="E-mail" required>
+            </div>
+            <div class="form-group password-group">
+                <input type="password" id="password" placeholder="Senha" required>
+                <button type="button" id="toggle-password" class="toggle-eye-btn">
+                    <i class="ph ph-eye" id="eye-icon"></i>
+                </button>
+            </div>
+            <div class="btn-group">
+                <button id="btn-login">Entrar</button>
+                <button id="btn-register" class="secondary">Registrar</button>
+            </div>
+        </div>
+
+        <!-- Seção do Painel do Usuário (Dashboard Limpo) -->
+        <div id="profile-section" class="card hidden dashboard-card">
+            <div class="dashboard-topbar">
+                <span class="status-dot"></span>
+                <!-- Ícone de Configurações para abrir o menu -->
+                <button id="btn-settings-toggle" class="icon-btn" title="Configurações">
+                    <i class="ph ph-gear"></i>
+                </button>
+            </div>
+
+            <div class="welcome-container">
+                <div class="avatar-circle">
+                    <i class="ph ph-user"></i>
+                </div>
+                <h2>Olá, <span id="profile-username" class="identity-user">Usuário</span>!</h2>
+                <p id="profile-email-sub" class="sub-email"></p>
+            </div>
+
+            <!-- Menu de Configurações Oculto (Abre ao clicar no ícone) -->
+            <div id="settings-menu" class="settings-modal hidden">
+                <div class="settings-header">
+                    <h3>Configurações da Conta</h3>
+                    <button id="btn-close-settings" class="icon-btn"><i class="ph ph-x"></i></button>
+                </div>
+                
+                <div class="settings-body">
+                    <div class="form-group" style="margin-bottom: 12px;">
+                        <label style="font-size: 11px; color: var(--text-muted); display: block; margin-bottom: 5px;">Mudar Senha</label>
+                        <input type="password" id="new-password" placeholder="Nova senha (mín. 6 caracteres)">
+                    </div>
+                    <button id="btn-update-password" class="secondary" style="width: 100%; margin-bottom: 15px;">Salvar Nova Senha</button>
+                </div>
+            </div>
+
+            <div class="dashboard-actions">
+                <button id="btn-back-home" class="secondary">Voltar</button>
+                <button id="btn-logout" class="danger">Sair da Conta</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

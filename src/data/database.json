@@ -1,0 +1,52 @@
+[
+  {
+    "id": "66a19547-699f-4e9f-a450-831e73845760",
+    "email": "abc",
+    "passwordHash": "$2b$10$WdLHopel.Htp8pY2qo/WTuC1S1H4bo5brZ1ySAcc9lqF1V8wIHC62"
+  },
+  {
+    "id": "9595baa1-d6b5-4899-baa9-cbb1c71d7d28",
+    "email": "qa",
+    "passwordHash": "$2b$10$OPiHxobac00sMzARQNS5JeZ6TsyUUx9i3ldw5bqviLu/aai3/I7ZC"
+  },
+  {
+    "id": "cd86b88e-6407-4650-84fc-8a1e2d1053b4",
+    "email": "fff",
+    "passwordHash": "$2b$10$OvVFszqJB/f2xYpbMcYLUeXJ/OSBYmEJLBIJHeNKbZG8jZbbxEcpe"
+  },
+  {
+    "id": "132c12ca-d7f3-4bb3-9107-73896c4281ec",
+    "email": "ZZC@EMAIL.COM",
+    "passwordHash": "$2b$10$pjQOBgSG89E.zSgh8CRPyuqCEHP95wk4AtT/J0gp8uN4JVwG5TZMa"
+  },
+  {
+    "id": "2cd90245-e7b3-432e-9b4d-43ec75ecc03f",
+    "email": "abc@email.com",
+    "passwordHash": "$2b$10$K7j7DYVqOOA8cSJ7G8B47e4fIc2wvT1pprrsw9fx0xdh0utoa80BC"
+  },
+  {
+    "id": "0ff59584-2db0-445a-a77b-226b9ecf6105",
+    "email": "abdk@email.com",
+    "passwordHash": "$2b$10$5EyDGQQKow1uWrQbVeC8kuTfIa8jRjDZsHFOvebusr3pYS1b4EVam"
+  },
+  {
+    "id": "96afae51-51e5-45a5-8125-556623f0078e",
+    "email": "a321121bc@email.com",
+    "passwordHash": "$2b$10$3x6/DW8MsernEsKfDZqw.OHhxk3k0D.v/9D13GzPaLjbRp3b3UHnG"
+  },
+  {
+    "id": "0f5a1e32-fa61-4aed-ab67-4a341f47db97",
+    "email": "teste@email.com",
+    "passwordHash": "$2b$10$N.ouovEjDYjsqQPPlfYeFe8MPWFbBrRUcaqVX6g/ewh6zcxc0BmxW"
+  },
+  {
+    "id": "08cdfa38-350e-42d7-84be-7685ef88efd7",
+    "email": "gdhhgsdghs@emaill.com",
+    "passwordHash": "$2b$10$n2imvyrb5db6ST.vd9Mlt.5dWXtE5KJwYd/gsg9IPPw.pKNgvu5Qe"
+  },
+  {
+    "id": "8f325ec2-b82d-4ac0-a0ac-fb82a350a30a",
+    "email": "asa@email.com",
+    "passwordHash": "$2b$10$4qolLu8HxoMzM9xo9Fjxguwp2342AywGq2rG8qo33ode.litKNRe6"
+  }
+]
